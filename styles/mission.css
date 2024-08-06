@@ -22,7 +22,7 @@
 
 .mission-card{
   display: flex; flex-direction: column;
-  height: 100%; width: 19.271vw;
+  width: 19.271vw;
   padding: 1.563vw 0.521vw;
   border: 1px solid #ffffff;
 }
