@@ -1,0 +1,53 @@
+.nav-cont {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  transition: all ease 0.5s;
+  border: 1px transparent red;
+}
+.nav-cont.sticky{
+  position: fixed;
+  height: 70px;
+  background-color: #000080;
+}
+.nav-cont.sticky > .nav-title > a h1{
+  font-size: 26px;
+}
+
+.nav-title{
+  font-family: "Kode Mono", monospace;
+  margin-left: 24px;
+}
+.nav-title > a h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all ease 0.5s;
+  letter-spacing: 4px;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 0 30px;
+}
+.nav-ul > a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.sidebar-logo{
+  display: none;
+}
+.sidebar-cont{
+  display: none;
+}
+.sidebar-overlay{
+  display: none;
+}

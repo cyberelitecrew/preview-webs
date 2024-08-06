@@ -1,0 +1,57 @@
+@media screen and (max-width: 960px){
+  .contact-page{
+    overflow: hidden;
+  }
+  .contact-container {
+    justify-content: center;
+    padding: 80px 0;
+  }
+  .contact-left {
+    gap: 20px;
+  }
+  .contact-left-title h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .contact-left-title hr{
+    width: 120px;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+  .contact-inputs {
+    width: 400px; height: 50px;
+    padding-left: 25px;
+  }
+  .contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+  }
+  .contact-inputs::placeholder {
+    font-size: 14px;
+  }
+  .contact-left button{
+    padding: 15px 30px;
+    font-size: 16px;
+    gap: 10px;
+    border-radius: 30px;
+  }
+  .contact-right img {
+    display: none;
+  }
+  .submit-row > div{
+    font-size: 14px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .contact-inputs {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .contact-inputs {
+    width: 300px;
+  }
+}

@@ -1,0 +1,106 @@
+.news-page{
+  background-color: black;
+  height: 100%;
+}
+
+.news-container{
+  display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
+  height: 100%;
+  border: 2px transparent purple;
+}
+.news-container > h1{
+  font-family: "Kode Mono", monospace; font-size: 4.167vw;
+  color: #ffffff;
+  margin: 1.563vw 0;
+}
+
+.news-wrapper{
+  display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto;
+  gap: 0.521vw;
+}
+
+.news-card{
+  display: flex; flex-direction: column;
+  background-color: #ffffff; padding: 0.313vw 0.313vw;
+  order: -1;
+}
+
+.news-image > img{
+  height: 8.333vw;
+  width: 14.583vw;
+  object-fit: cover;
+}
+
+.news-header{
+  font-family: nvidia-sans, Helvetica, Arial, Sans-Serif;
+}
+
+.news-dates{
+  color: #5a5a5a;
+  font-size: 0.573vw;
+  padding: 0.313vw 0.313vw;
+  text-decoration: underline;
+}
+
+.news-title{
+  display: inline-block;
+  font-size: 1.042vw; font-weight: 600;
+  color: #000000;
+  width: 14.323vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: justify;
+  text-overflow: ellipsis;
+  padding: 0 0.313vw;
+}
+
+.news-button a button{
+  background-color: transparent;
+  color: #000000;
+  font-size: 0.729vw;
+  border: 1px solid #000000;
+  padding: 0.417vw;
+  margin-top: 0.313vw;
+  margin-left: 0.313vw;
+  cursor: pointer;
+}
+.news-button a button:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.news-profile{
+  display: flex; flex-direction: row; justify-content: space-between;
+  font-family: nvidia-sans, Helvetica, Arial, Sans-Serif;
+}
+.news-profile-content{
+  display: flex; flex-direction: row;
+  margin-top: 0.781vw;
+  margin-left: 0.313vw;
+}
+.news-profile-image > img{
+  border-radius: 50%;
+  height: 2.083vw;
+  width: 2.083vw;
+}
+
+.news-profile-name{
+  display: flex; flex-direction: column; justify-content: center;
+  color: #000000;
+  margin-left: 0.417vw;
+}
+.news-profile-name > h3{
+  font-size: 0.729vw;
+}
+.news-profile-name > p{
+  font-size: 0.521vw;
+}
+
+.news-collapse a{
+  display: flex; justify-content: center;
+  background-color: #000080; color: #ffffff;
+  padding: 0.781vw 0.781vw;
+  margin: 1.563vw 0;
+  font-family: nvidia-sans, Helvetica, Arial, Sans-Serif; font-size: 0.938vw; font-weight: 600;
+  cursor: pointer;
+}

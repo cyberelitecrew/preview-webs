@@ -1,0 +1,36 @@
+@media screen and (max-width: 960px){
+  .copyright-page{
+    overflow: hidden;
+  }
+  .copyright-container{
+    padding: 15px;
+  }
+  .copyright-container > p{
+    font-size: 14px;
+  }
+  .copyright-social{
+    gap: 25px;
+    margin: 15px 0;
+  }
+  .copyright-social > a > i{
+    font-size: 30px;
+  }
+  .copyright-last{
+    gap: 80px;
+  }
+  .copyright-last > a > p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .copyright-container > p{
+    font-size: 2.824vw;
+  }
+  .copyright-social > a > i{
+    font-size: 6.588vw;
+  }
+  .copyright-last > a > p{
+    font-size: 2.824vw;
+  }
+}

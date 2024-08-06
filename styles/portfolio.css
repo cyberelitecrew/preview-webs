@@ -1,0 +1,65 @@
+.portfolio-page{
+  background-color: black;
+  height: 100%;
+}
+
+.portfolio-container{
+  display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
+  height: 100%;
+  padding-bottom: 4.167vw;
+  border: 2px transparent purple;
+}
+.portfolio-container > h1{
+  font-family: "Kode Mono", monospace; font-size: 4.167vw;
+  color: #ffffff;
+  margin: 1.563vw 0;
+}
+
+.portfolio-wrapper{
+  display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: auto;
+  gap: 0.781vw; 
+}
+
+.portfolio-card{
+  display: flex; flex-direction: column; align-items: center;
+  border: 1px solid #ffffff;
+  padding: 2.083vw 2.083vw;
+}
+
+.portfolio-image > img{
+  height: 5.208vw; width: 5.208vw;
+  border-radius: 2.604vw;
+}
+
+.portfolio-profile{
+  display: flex; flex-direction: column; align-items: center;
+  margin-top: 0.26vw;
+}
+.portfolio-name{
+  font-family: "Kode Mono", monospace; font-size: 0.833vw;
+  color: #ffffff;
+}
+.portfolio-role{
+  font-family: "Open Sans", sans-serif; font-weight: 100; font-size: 0.625vw;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-ex{
+  text-align: center;
+  margin-top: 0.26vw;
+}
+.portfolio-ex > p{
+  font-family: "Open Sans", sans-serif; font-style: italic; font-size: 0.729vw;
+  color: #ffffff;
+}
+
+.portfolio-social{
+  display: flex; flex-direction: row;
+  font-size: 1.302vw;
+  margin-top: 0.521vw;
+  gap: 0.781vw;
+}
+
+.portfolio-social > a > i{
+  color: #ffffff;
+}

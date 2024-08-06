@@ -1,0 +1,57 @@
+@media screen and (max-width: 960px){
+  .portfolio-page{
+    overflow: hidden;
+  }
+  .portfolio-container{
+    padding-bottom: 80px;
+  }
+  .portfolio-container > h1{
+    font-size: 80px;
+    margin: 30px 0;
+  }
+  
+  .portfolio-wrapper{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; 
+  }
+  .portfolio-card{
+    padding: 40px 40px;
+  }
+  .portfolio-image > img{
+    height: 100px; width: 100px;
+    border-radius: 50px;
+  }
+  .portfolio-profile{
+    margin-top: 5px;
+  }
+  .portfolio-name{
+    font-size: 16px;
+  }
+  .portfolio-role{
+    font-size: 12px;
+  }
+  .portfolio-ex{
+    margin-top: 5px;
+  }
+  .portfolio-ex > p{
+    font-size: 14px;
+  }
+  .portfolio-social{
+    font-size: 25px;
+    margin-top: 10px;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 870px){
+  .portfolio-wrapper{
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+@media screen and (max-width: 580px){
+  .portfolio-container > h1{
+    font-size: 14vw;
+  }
+  .portfolio-wrapper{
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}

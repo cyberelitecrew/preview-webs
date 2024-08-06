@@ -1,0 +1,35 @@
+.copyright-page{
+  background-color: #080808;
+}
+
+.copyright-container{
+  display: flex; flex-direction: column; align-items: center;
+  padding: 0.781vw;
+}
+.copyright-container > p{
+  font-family: "Inter", sans-serif; font-size: 0.729vw;
+  color: #ffffff;
+}
+
+.copyright-social{
+  display: flex; flex-direction: row;
+  gap: 1.302vw;
+  margin: 0.781vw 0;
+}
+.copyright-social > a > i{
+  color: #ffffff;
+  font-size: 1.563vw;
+}
+
+.copyright-last{
+  display: flex; flex-direction: row;
+  gap: 4.167vw;
+}
+.copyright-last > a > p{
+  font-family: "Inter", sans-serif; font-size: 0.729vw;
+  color: #ffffff;
+}
+
+.copyright-last > a > p:hover{
+  color: #fcc200;
+}

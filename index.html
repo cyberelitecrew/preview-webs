@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Elite Crew</title>
+
+  <!-- Icon Assets --> <!-- Thanks to Font Awesome -->
+  <script src="https://kit.fontawesome.com/48a2a83fad.js" crossorigin="anonymous"></script>
+
+  <!-- Google Font -->
+  <!-- font-family: "Kode Mono", monospace; -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+  <!-- font-family: "Open Sans", sans-serif; -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <!-- font-family: "Inter", sans-serif; -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <!-- Typed JS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Partial CSS -->
+  <link rel="stylesheet" href="./styles/html.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/home.css">
+  <link rel="stylesheet" href="./styles/news.css">
+  <link rel="stylesheet" href="./styles/mission.css">
+  <link rel="stylesheet" href="./styles/portfolio.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <link rel="stylesheet" href="./styles/copyright.css">
+
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="./styles/responsive/header-rp.css">
+  <link rel="stylesheet" href="./styles/responsive/home-rp.css">
+  <link rel="stylesheet" href="./styles/responsive/news-rp.css">
+  <link rel="stylesheet" href="./styles/responsive/mission-rp.css">
+  <link rel="stylesheet" href="./styles/responsive/portfolio-rp.css">
+  <link rel="stylesheet" href="./styles/responsive/contact-rp.css">
+  <link rel="stylesheet" href="./styles/responsive/copyright-rp.css">
+
+</head>
+<body>
+
+  <!-- Navigation Bar (For Desktop)-->
+  <header class="nav-cont">
+    <h1 class="nav-title">
+      <a href="#home"><h1>Cyber Elite Crew</h1></a>
+    </h1>
+
+    <ul class="nav-ul">
+      <a href="#home"><li>Home</li></a>
+      <a href="#news"><li>News</li></a>
+      <a href="#mission"><li>Mission</li></a>
+      <a href="#portfolio"><li>Portfolio</li></a>
+      <a href="#contact"><li>Contact</li></a>
+    </ul>
+
+    <!-- Sidebar (For Mobile and Tablet)-->
+    <div class="sidebar-logo">
+      <i class="fa-solid fa-bars bars-icon"></i>
+    </div>
+
+    <div class="sidebar-cont">
+      <div class="sidebar-logo">
+        <i class="fa-solid fa-bars bars-icon"></i>
+      </div>
+
+      <div class="sidebar-ul">
+        <ul>
+          <li>
+            <a href="#home">
+              <span>Home<span style="opacity: 0;">_</span><i class="fa-solid fa-house sidebar-btn-logo"></i></span>
+            </a>
+            <a href="#news">
+              <span>News<span style="opacity: 0;">_</span><i class="fa-regular fa-newspaper sidebar-btn-logo"></i></span>
+            </a>
+            <a href="#mission">
+              <span>Mission<span style="opacity: 0;">_</span><i class="fa-regular fa-map sidebar-btn-logo"></i></span>
+            </a>
+            <a href="#portfolio">
+              <span>Portfolio<span style="opacity: 0;">_</span><i class="fa-solid fa-sitemap sidebar-btn-logo"></i></span>
+            </a>
+            <a href="#contact">
+              <span>Contact<span style="opacity: 0;">_</span><i class="fa-regular fa-envelope sidebar-btn-logo"></i></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="sidebar-overlay"></section>
+  </header>
+  
+    <!-- Home Section -->
+    <section id="home" class="home-page page">
+      <div class="hero-container">
+        <div class="hero-row-left">
+          <img src="./img/header-title.png">
+        </div>
+        <div class="hero-row-right">
+          <h1>Welcome to <br><span id="auto-type"></span></h1>
+          <div class="hero-social-logo">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news-page page">
+      
+      <!-- News Body -->
+      <div class="news-container">
+        <h1>Latest News</h1>
+
+        <div class="news-wrapper">
+
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <img src="./img/news-example.jpg">
+            </div>
+
+            <div class="news-header">
+              <p class="news-dates">04/08/2024</p>
+              <p class="news-title">Oracle Cloud Infrastructure <br>Expands NVIDIA GPU-<br>Accelerated Instances for AI, Digital Twins and More</p>
+            </div>
+
+            <div class="news-button">
+              <a href=""><button>Read more</button></a>
+            </div>
+
+            <div class="news-profile">
+              <div class="news-profile-content">
+                <div class="news-profile-image">
+                  <img src="./img/profile-example.png">
+                </div>
+                <div class="news-profile-name">
+                  <h3>Keris Kilau</h3>
+                  <p>CEC Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="news-collapse">
+          <a href=""><p>All News</p></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission-page page">
+
+      <!-- Mission Body -->
+       <div class="mission-container">
+        <h1>Our Mission</h1>
+
+        <div class="mission-wrapper">
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="mission-title">
+              <p>Penetration Testing</p>
+            </div>
+
+            <div class="mission-desc">
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Vestibulum dictum volutpat tellus nec facilisi vestibulum risus pretium fames. Penatibus porttitor mauris accumsan erat dictumst tempor et gravida. Ipsum himenaeos ante nibh natoque a suspendisse pulvinar consequat convallis. Semper viverra class nibh lobortis curae habitasse.</p>
+            </div>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-person-chalkboard"></i>
+            </div>
+
+            <div class="mission-title">
+              <p>Cybersecurity Awareness</p>
+            </div>
+
+            <div class="mission-desc">
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Vestibulum dictum volutpat tellus nec facilisi vestibulum risus pretium fames. Penatibus porttitor mauris accumsan erat dictumst tempor et gravida. Ipsum himenaeos ante nibh natoque a suspendisse pulvinar consequat convallis. Semper viverra class nibh lobortis curae habitasse.</p>
+            </div>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-handshake-simple"></i>
+            </div>
+
+            <div class="mission-title">
+              <p>Collaborating With <br> Cybersecurity Teams</p>
+            </div>
+
+            <div class="mission-desc">
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Vestibulum dictum volutpat tellus nec facilisi vestibulum risus pretium fames. Penatibus porttitor mauris accumsan erat dictumst tempor et gravida. Ipsum himenaeos ante nibh natoque a suspendisse pulvinar consequat convallis. Semper viverra class nibh lobortis curae habitasse.</p>
+            </div>
+          </div>
+
+        </div>
+        
+       </div>
+
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-page page">
+
+      <!-- Portfolio Body -->
+      <div class="portfolio-container">
+        <h1>Portfolio</h1>
+
+        <div class="portfolio-wrapper">
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">Keris Kilau</p>
+              <p class="portfolio-role">CEC Founder</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>Diploma Pengajian Islam di <br>Kolej Universiti Islam Perlis</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">mrBolos</p>
+              <p class="portfolio-role">Web Developer</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>Anak didikan <br> EliteGhost Malaysia</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">JohnTheRipper</p>
+              <p class="portfolio-role">Cyber Security Advisor</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>DragonForce Malaysia <br> Community</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">Perthlis</p>
+              <p class="portfolio-role">Cyber Security Enginner</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>Master Cyber Security di <br> Universiti Sultan Zainal Abidin</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">Dark Rabbit</p>
+              <p class="portfolio-role">Cyber Security Analyst</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>Diploma Pengajian Islam di <br>Kolej Universiti Islam Perlis</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">SQlj3d1</p>
+              <p class="portfolio-role">Cyber Security Pentester</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>Diploma Pengajian Islam di <br>Kolej Universiti Islam Perlis</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="./img/profile-example.png">
+            </div>
+
+            <div class="portfolio-profile">
+              <p class="portfolio-name">Amni</p>
+              <p class="portfolio-role">Cyber Security Awareness</p>
+            </div>
+
+            <div class="portfolio-ex">
+              <p>Diploma Pengajian Islam di <br>Kolej Universiti Islam Perlis</p>
+            </div>
+
+            <div class="portfolio-social">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-page page">
+      <div class="contact-container">
+
+        <form method="POST" id="form" class="contact-left">
+          <div class="contact-left-title">
+            <h2>Contact Us</h2>
+            <hr>
+          </div>
+          <input type="hidden" name="access_key" value="8cacd59f-fb39-4182-8ff8-be8569a61586">
+          <input type="text" name="name" id="name" placeholder="Input(Your Name)" class="contact-inputs" required>
+          <input type="email" name="email" id="email" placeholder="Input(Email Address)" class="contact-inputs" required>
+          <textarea name="message" id="message" placeholder="Input(Your Message)" class="contact-inputs" required></textarea>
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <div class="h-captcha" data-captcha="true"></div>
+          <div class="submit-row">
+            <button type="submit">Send</button>
+            <div id="result"></div>
+          </div>
+        </form>
+        <div class="contact-right">
+          <img src="./img/cec-logo-circle.png">
+        </div>
+      </div>
+    </section>
+
+    <footer class="copyright-page">
+      <div class="copyright-container">
+        <p>Copyright &#169; 2024 Cyber Elite Crew.<span style="opacity: 0;">_</span>All Right Reserved</p>
+        <div class="copyright-social">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <div class="copyright-last">
+          <a href=""><p>Privacy Policy</p></a>
+          <a href=""><p>Terms of Use</p></a>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Partial JS -->
+  <script src="./js/header.js"></script>
+
+  <!-- Web3 Forms eCaptcha -->
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+
+  <!-- Web3 Forms JS -->
+  <script src="./js/forms.js"></script>
+
+  <!-- Typed JS -->
+  <script>
+      let typed = new Typed('#auto-type', {
+      strings: ['Cyber Elite Crew', 'Ethical Guardians', 'Digital Realms'],
+      typeSpeed: 80,
+      backSpeed: 80,
+      loop: true
+    });
+  </script>
+</body>
+</html>

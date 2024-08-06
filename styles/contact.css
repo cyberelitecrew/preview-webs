@@ -1,0 +1,71 @@
+.contact-page{
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+}
+
+.contact-container {
+  display: flex; align-items: center; justify-content: space-evenly;
+  padding: 4.167vw 0;
+}
+
+.contact-left {
+  display: flex; flex-direction: column; align-items: start;
+  gap: 1.042vw;
+}
+
+.contact-left-title h2{
+  font-family: "Kode Mono", monospace; font-size: 2.083vw;
+  color: #ffffff;
+  margin-bottom: 0.26vw;
+}
+
+.contact-left-title hr{
+  border: none;
+  width: 6.25vw;
+  height: 0.26vw;
+  background-color: #ffffff;
+  margin-bottom: 1.042vw;
+}
+
+.contact-inputs {
+  font-family: "Kode Mono", monospace;
+  width: 20.833vw; height: 2.604vw;
+  border: none;
+  outline: none;
+  padding-left: 1.302vw;
+  color: #000000;
+}
+
+.contact-left textarea{
+  height: 7.292vw;
+  padding-top: 0.781vw;
+}
+
+.contact-inputs::placeholder {
+  font-size: 0.729vw;
+  color: #000000;
+}
+
+.contact-left button{
+  font-family: "Kode Mono", monospace;
+  display: flex; align-items: center;
+  padding: 0.781vw 1.563vw;
+  font-size: 0.833vw;
+  color: #fff;
+  gap: 0.521vw;
+  border: none; border-radius: 1.563vw;
+  background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+  cursor: pointer;
+}
+
+.contact-right img {
+  width: 31.25vw;
+}
+
+.submit-row{
+  display: flex; flex-direction: row; align-items: center;
+}
+.submit-row > div{
+  font-family: "Kode Mono", monospace; font-size: 0.729vw;
+  margin-left: 1.042vw;
+  color: #ffffff;
+}

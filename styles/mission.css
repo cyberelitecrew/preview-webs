@@ -1,0 +1,57 @@
+.mission-page{
+  background-color: black;
+  height: 100%;
+}
+
+.mission-container{
+  display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
+  height: 100%;
+  padding-bottom: 4.167vw;
+  border: 2px transparent purple;
+}
+.mission-container > h1{
+  font-family: "Kode Mono", monospace; font-size: 4.167vw;
+  color: #ffffff;
+  margin: 1.563vw 0;
+}
+
+.mission-wrapper{
+  display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: auto;
+  gap: 1.042vw; 
+}
+
+.mission-card{
+  display: flex; flex-direction: column;
+  height: 100%; width: 19.271vw;
+  padding: 1.563vw 0.521vw;
+  border: 1px solid #ffffff;
+}
+
+.mission-icon{
+  display: flex; justify-content: center;
+}
+
+.mission-icon > i{
+  font-size: 3.646vw;
+  color: #ffffff;
+  margin: 0.26vw 0;
+}
+
+.mission-title{
+  display: flex; justify-content: center;
+  margin: 0.781vw 0;
+}
+.mission-title p{
+  font-family: "Kode Mono", monospace; font-size: 1.146vw; font-weight: 600;
+  color: #ffffff;
+}
+
+.mission-desc{
+  text-align: center;
+  width: 100%;
+  padding: 0 0.521vw;
+}
+.mission-desc p{
+  font-family: "Kode Mono", monospace; font-size: 0.781vw; font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
